@@ -9,9 +9,13 @@
 
 ## Expression: ^([a-zA-Z])+([\w]{2,})+$
 
-NOTE: If you want to allowed any special characters in user name then add that special char after \w like:
-* Example 1(allow @): ^([a-zA-Z])+([\w@]{2,})+$
-* Example 2(allow @ and %): ^([a-zA-Z])+([\w@%]{2,})+$
+NOTE: 
+* If you want to allowed any special characters in user name then add that special char after \w like:
+    * Example 1(allow @): ^([a-zA-Z])+([\w@]{2,})+$
+    * Example 2(allow @ and %): ^([a-zA-Z])+([\w@%]{2,})+$
+* If you want to increase minimum limit then replace that number-1 with 2 in expression
+    * Minimum 5 char: ^([a-zA-Z])+([\w@]{4,})+$
+
 
 ### Valid User Name:
 * john

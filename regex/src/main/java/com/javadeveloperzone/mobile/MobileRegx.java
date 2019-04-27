@@ -1,8 +1,11 @@
-package main.java.com.javadeveloperzone;
+package main.java.com.javadeveloperzone.mobile;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * @author subhash lamba
+ */
 public class MobileRegx {
 
     public static final Pattern MOBILE_REGX = Pattern.compile("^(\\+?\\d{2})?(\\s+)?(\\d{10})\\b");//. represents single character
@@ -22,7 +25,6 @@ public class MobileRegx {
     public static boolean isValidMobileNo(String mobileNo){
         Matcher matcher = MOBILE_REGX.matcher(mobileNo);
         return matcher.matches();
-
     }
 }
 

@@ -13,4 +13,4 @@
 *  0123456789000
 * 0123 456 789
 
-Source code : [src/main/java/com/javadeveloperzone/mobile/MobileRegx.java](src/main/java/com/javadeveloperzone/mobile/MobileRegx.java)
+Source code : [MobileRegx.java](MobileRegx.java)

@@ -34,3 +34,6 @@ NOTE:
 * jo
 
 Source code : [UserNameRegx.java](UserNameRegx.java)
+
+For more details : [Java regular expression for username
+](https://javadeveloperzone.com/java-8/java-regular-expression-for-username/)
